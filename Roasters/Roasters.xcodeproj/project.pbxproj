@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,6 @@
 				44F82A33FA5FBBBFDAA871D8 /* Pods-RoastersTests.debug.xcconfig */,
 				82A7DAA6BD5C847A235A8E9B /* Pods-RoastersTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,10 +131,13 @@
 		DACEC7DE24FE816F00B0A453 /* Roasters */ = {
 			isa = PBXGroup;
 			children = (
+				DACEC81424FE824200B0A453 /* Scene */,
+				DACEC81324FE823D00B0A453 /* Services */,
+				DACEC81224FE823600B0A453 /* ViewModel */,
+				DACEC81524FE827A00B0A453 /* ViewController */,
+				DACEC81624FE827C00B0A453 /* Model */,
 				DACEC7DF24FE816F00B0A453 /* AppDelegate.swift */,
 				DACEC7E124FE816F00B0A453 /* SceneDelegate.swift */,
-				DACEC7E324FE816F00B0A453 /* ViewController.swift */,
-				DACEC7E524FE816F00B0A453 /* Main.storyboard */,
 				DACEC7EB24FE817100B0A453 /* Assets.xcassets */,
 				DACEC7ED24FE817100B0A453 /* LaunchScreen.storyboard */,
 				DACEC7F024FE817100B0A453 /* Info.plist */,
@@ -160,6 +162,43 @@
 				DACEC80624FE817200B0A453 /* Info.plist */,
 			);
 			path = RoastersUITests;
+			sourceTree = "<group>";
+		};
+		DACEC81224FE823600B0A453 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DACEC81324FE823D00B0A453 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DACEC81424FE824200B0A453 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		DACEC81524FE827A00B0A453 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DACEC7E524FE816F00B0A453 /* Main.storyboard */,
+				DACEC7E324FE816F00B0A453 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DACEC81624FE827C00B0A453 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FAC2D3D90A7ECB878B123E58 /* Frameworks */ = {
